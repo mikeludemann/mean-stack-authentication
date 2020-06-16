@@ -1,0 +1,49 @@
+{
+  "name": "mean-stack-authentication",
+  "version": "1.0.0",
+  "description": "A MEAN Stack Authentication Setup with Login, Registration and more",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/mean-stack-authentication.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Pug",
+    "MEAN-Stack",
+    "MongoDB",
+    "Angular"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/mean-stack-authentication/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/mean-stack-authentication#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "uglify-js": "^3.9.4"
+  },
+  "devDependencies": {
+    "crypto": "^1.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
